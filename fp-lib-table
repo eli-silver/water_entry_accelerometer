@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "adxl355")(type "KiCad")(uri "${KIPRJMOD}/adxl335/adxl355.pretty")(options "")(descr ""))
+)
