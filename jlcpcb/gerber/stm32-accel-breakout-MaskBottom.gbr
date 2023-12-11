@@ -1,0 +1,87 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,(7.0.0)*%
+%TF.CreationDate,2023-12-11T14:41:33-05:00*%
+%TF.ProjectId,stm32-accel-breakout,73746d33-322d-4616-9363-656c2d627265,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Soldermask,Bot*%
+%TF.FilePolarity,Negative*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (7.0.0)) date 2023-12-11 14:41:33*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 Aperture macros list*
+%AMHorizOval*
+0 Thick line with rounded ends*
+0 $1 width*
+0 $2 $3 position (X,Y) of the first rounded end (center of the circle)*
+0 $4 $5 position (X,Y) of the second rounded end (center of the circle)*
+0 Add line between two ends*
+20,1,$1,$2,$3,$4,$5,0*
+0 Add two circle primitives to create the rounded ends*
+1,1,$1,$2,$3*
+1,1,$1,$4,$5*%
+%AMRotRect*
+0 Rectangle, with rotation*
+0 The origin of the aperture is its center*
+0 $1 length*
+0 $2 width*
+0 $3 Rotation angle, in degrees counterclockwise*
+0 Add horizontal line*
+21,1,$1,$2,0,0,$3*%
+G04 Aperture macros list end*
+%ADD10C,4.700000*%
+%ADD11C,0.650000*%
+%ADD12O,1.000000X2.100000*%
+%ADD13O,1.000000X1.600000*%
+%ADD14RotRect,1.700000X1.700000X150.000000*%
+%ADD15HorizOval,1.700000X0.000000X0.000000X0.000000X0.000000X0*%
+%ADD16C,0.990600*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,H6*%
+X168327215Y-100278051D03*
+%TD*%
+%TO.C,H5*%
+X131327215Y-100278051D03*
+%TD*%
+%TO.C,H4*%
+X140577215Y-84278051D03*
+%TD*%
+%TO.C,H3*%
+X159077215Y-84278051D03*
+%TD*%
+%TO.C,H2*%
+X159077215Y-116278051D03*
+%TD*%
+%TO.C,H1*%
+X140577215Y-116278051D03*
+%TD*%
+D11*
+%TO.C,J1*%
+X152717215Y-87633051D03*
+X146937215Y-87633051D03*
+D12*
+X154147214Y-88133050D03*
+D13*
+X154147214Y-83953050D03*
+D12*
+X145507214Y-88133050D03*
+D13*
+X145507214Y-83953050D03*
+%TD*%
+D14*
+%TO.C,J3*%
+X160949999Y-110149999D03*
+D15*
+X162219999Y-107950294D03*
+X163489999Y-105750590D03*
+%TD*%
+D16*
+%TO.C,J4*%
+X140970000Y-92700295D03*
+X139309882Y-97607705D03*
+X137550118Y-96591705D03*
+%TD*%
+M02*
